@@ -1,0 +1,17 @@
+# gen_svg_slide — Python backend for AI-powered PPTX slide generation
+#
+# Core dependencies
+python-pptx>=0.6.21       # PPTX reading (parsing) and creation
+cairosvg>=2.7.0           # SVG → PNG rendering (for compat mode)
+Pillow>=10.0.0            # Image processing
+lxml>=4.9.0               # Fast XML parsing (used by svg_to_pptx)
+
+# AI backends (install at least one)
+openai>=1.0.0             # OpenAI / DeepSeek / Qwen (all OpenAI-compatible)
+anthropic>=0.30.0         # Anthropic Claude API
+
+# Configuration
+python-dotenv>=1.0.0      # .env file loading
+
+# Optional
+Jinja2>=3.1.0             # For template-based SVG generation (non-AI path)
