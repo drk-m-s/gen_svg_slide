@@ -1,6 +1,9 @@
 # Environment secrets
 .env
 
+# workspace 
+*.code-workspace
+
 # Python bytecode
 __pycache__/
 *.py[cod]
