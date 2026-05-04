@@ -1,0 +1,42 @@
+# Environment secrets
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.virtualenv/
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Output
+exports/
+*.pptx
